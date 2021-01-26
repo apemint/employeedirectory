@@ -13,7 +13,7 @@ function SearchBar(props){
                 className="inputFull"
               />
                   <InputGroup.Append>
-                    <Button variant="secondary" onClick={props.handleRefresh}></Button>
+                    <Button variant="secondary" onClick={props.handleRefresh}>Search</Button>
                   </InputGroup.Append>
             </InputGroup>
             </Container>

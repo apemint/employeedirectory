@@ -11,9 +11,9 @@ function EmployeeTable(props) {
                     <thead>
                         <tr>
                             <th><button className="sortBtn" onClick={props.handleSort}>Sort</button></th>
-                            <th></th>
                             <th>Name</th>
                             <th>Email</th>
+                            <th>State</th>
                             
                         </tr>
                     </thead>
