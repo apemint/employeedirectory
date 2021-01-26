@@ -1,26 +1,12 @@
 # Employee Directory
-# Unit 19 React Homework: Employee Directory
-
-## Overview
-
-For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
-
-## User Story
-
-* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
-
-## Business Context
-
-An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
-
-
+ Unit 19 React Homework: Employee Directory
 
 ## Description
-This app uses node.js and express.js for server side data storage, storing and saving users' notes through api get and post requests, and also allowing the user to delete any saved notes. 
+This app uses React and randomuser.me API in creating a mock employee directory app, using react as the front end, and randomuser.me API to generate random users. THe app is capable of searching through users and sorting the reuslts by first name.
 
 ## Deployed Project
-[Repo Link](https://github.com/apemint/e) 
-[Deployed App](https://frozen-sea-44701.herokuapp.com/) 
+[Repo Link](https://github.com/apemint/employeedirectory) 
+[Deployed App](https://apemint.github.io/employeedirectory/) 
 
 ## Table of Contents
 [Installation](#installation)  
@@ -28,17 +14,9 @@ This app uses node.js and express.js for server side data storage, storing and s
  
 
 ## Installation
-### Heroku
-This app is deployed to Heroku, and can be accessed [here](https://frozen-sea-44701.herokuapp.com/) , no install required.
-### Local
-To use this application locally, make sure you have node.js installed. Clone the repo and open the terminal at the file location. In the terminal, type "npm init -y" and "npm install express" 
-
+Clone the Repository, After cloning, run npm install to install all required dependencies. Once done, run npm start to run the app.
 ## Usage
-### Heroku
-Click on get started to be sent to the notes page. Here simply enter a title and body for your note and click on the floppy disk icon to save the note to the side history. Click on the trash can to delete the associated note.
-### Local
-At the file location, open the terminal and run 'node server.js'. This app defaults to localhost:8080 so type this into your browser. From here follow the Heroku usage guide.
-
+On deployment, a table of emplyee should appear. The user may use the search bar to find users, and sort by first name using the sort button.
 ## Questions
 Please contact me with any questions or compliments! 
 
